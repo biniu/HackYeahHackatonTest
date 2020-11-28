@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: ed778a3a4b5703f4d827579e7fff2ee3
+=======
+guid: f01b30593ef3ae04aaf421ae890e62a9
+>>>>>>> main
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -90,5 +94,9 @@ TextureImporter:
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 
+<<<<<<< HEAD
   assetBundleName: textures
+=======
+  assetBundleName: 
+>>>>>>> main
   assetBundleVariant: 

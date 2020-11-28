@@ -11,7 +11,7 @@ public class FloorGenerator : MonoBehaviour
     public GameObject[] prefabs = new GameObject[3];
     public List<GameObject> FloorObject = new List<GameObject>();
 
-    private uint floorCount = 2; 
+    private int floorCount = 2; 
     
     // public GameObject[] FloorObject = new GameObject[2];
     
@@ -29,6 +29,8 @@ public class FloorGenerator : MonoBehaviour
         //
         Debug.Log("FloorGenerator Update FloorObject.Count " + FloorObject.Count);
 
+        Debug.Log("FloorGenerator Update FloorObject.transform.position.x -1   " + FloorObject[floorCount-1].transform.localPosition.x);
+        Debug.Log("FloorGenerator Update FloorObject.transform.position.x -2   " + FloorObject[floorCount-2].transform.position.x);
         
         if ((Camera.main.transform.position.x > FloorObject[FloorObject.Count - 2].transform.position.x) && true)
             // (Camera.main.transform.position.x < FloorObject[FloorObject.Count - 1].transform.position.x))
@@ -48,7 +50,6 @@ public class FloorGenerator : MonoBehaviour
                 Quaternion.identity);
 
             floorCount++;
-            FloorObject.RemoveAt(0);
             Debug.Log("FloorGenerator Update FloorObject.Length " + FloorObject.Count);
         }
         
