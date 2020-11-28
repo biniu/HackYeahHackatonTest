@@ -41,10 +41,10 @@ public class Player : MonoBehaviour
        
         if (_jumpKeyWasPressed)
         {
-            uint jumpPower = 10;
+            float jumpPower = 9;
             if (_superJumpsRemaining > 0)
             {
-                jumpPower *= 1;
+                jumpPower *= 1.5f;
                 _superJumpsRemaining--;
             }
             _rigidbodyComponent.AddForce(Vector3.up * jumpPower, ForceMode.VelocityChange);
@@ -56,8 +56,9 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("other.gameObject.layer " + other.gameObject.layer);
         if (other.gameObject.layer == 9)
-        {
+        { 
             Destroy(other.gameObject);
             _superJumpsRemaining++;
         }
