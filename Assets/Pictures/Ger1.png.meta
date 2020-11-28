@@ -1,12 +1,20 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 50b5f38eecaeea04283523c51d4345fd
+=======
 guid: c77aa6ab4a1548141870ca4df2c0748a
+>>>>>>> main
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
+<<<<<<< HEAD
+    enableMipMap: 1
+=======
     enableMipMap: 0
+>>>>>>> main
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -50,7 +58,11 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
+<<<<<<< HEAD
+  alphaIsTransparency: 0
+=======
   alphaIsTransparency: 1
+>>>>>>> main
   spriteTessellationDetail: -1
   textureType: 0
   textureShape: 1
@@ -73,6 +85,8 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
+=======
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -97,6 +111,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> main
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -114,5 +129,9 @@ TextureImporter:
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 
+<<<<<<< HEAD
+  assetBundleName: textures
+=======
   assetBundleName: 
+>>>>>>> main
   assetBundleVariant: 
