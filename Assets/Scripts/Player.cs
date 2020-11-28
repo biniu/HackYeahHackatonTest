@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
             _jumpKeyWasPressed = false;
         }
         
-        _rigidbodyComponent.velocity = new Vector3(_horizontalInput + 3, _rigidbodyComponent.velocity.y, 0);
+        _rigidbodyComponent.velocity = new Vector3(_horizontalInput, _rigidbodyComponent.velocity.y, 0);
     }
 
     private void OnTriggerEnter(Collider other)
