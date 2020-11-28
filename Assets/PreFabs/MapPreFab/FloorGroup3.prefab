@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7201980004762066869}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: FloorGroup3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -466,6 +466,10 @@ PrefabInstance:
     - target: {fileID: 2745849101668733227, guid: 4d74f2bc421196844819b654fb23c4e1, type: 3}
       propertyPath: m_Name
       value: FloorGroup0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5581159313140387525, guid: 4d74f2bc421196844819b654fb23c4e1, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d74f2bc421196844819b654fb23c4e1, type: 3}
