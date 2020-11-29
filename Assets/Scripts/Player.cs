@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 {
     
     [SerializeField] private Transform groundCheckTransform = null ;
+    // [SerializeField] private Animator _animator = null ;
     private bool _jumpKeyWasPressed;
     
     private int _superJumpsRemaining = 0;
@@ -48,6 +49,7 @@ public class Player : MonoBehaviour
                 _superJumpsRemaining--;
             }
             _rigidbodyComponent.AddForce(Vector3.up * jumpPower, ForceMode.VelocityChange);
+            GetComponent<Animator>().SetTrigger("Jump");
             _jumpKeyWasPressed = false;
         }
         
